@@ -1,11 +1,30 @@
 .cutting {
+  // .container;
+  overflow: hidden;
   position: relative;
-  border-bottom: 4px dashed black;
   margin-bottom: 40px;
 }
 
-.scissors {
-  position: absolute;
+.scissors-mask {
+  width: 100vw;
+  border-bottom: 6px solid var(--one);
+  position: relative;
+  top: -60px;
+  transform: translateX(-100%);
+}
 
-  transform: translateX(-60%) translateY(-40%);
+.scissors {
+  position: relative;
+}
+
+.scissors-img {
+  position: relative;
+  right: -100%;
+  transform: translateY(66%) translateX(-58%);
+}
+
+.stitches {
+  border-bottom: 4px dashed var(--two);
+  position: relative;
+  top: 50px;
 }

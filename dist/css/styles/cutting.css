@@ -1,11 +1,28 @@
 /*! project-name v0.0.1 | (c) 2019 YOUR NAME | MIT License | http://link-to-your-git-repo.com */
 .cutting {
+  overflow: hidden;
   position: relative;
-  border-bottom: 4px dashed black;
   margin-bottom: 40px;
 }
+.scissors-mask {
+  width: 100vw;
+  border-bottom: 6px solid var(--one);
+  position: relative;
+  top: -60px;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
 .scissors {
-  position: absolute;
-  -webkit-transform: translateX(-60%) translateY(-40%);
-          transform: translateX(-60%) translateY(-40%);
+  position: relative;
+}
+.scissors-img {
+  position: relative;
+  right: -100%;
+  -webkit-transform: translateY(66%) translateX(-58%);
+          transform: translateY(66%) translateX(-58%);
+}
+.stitches {
+  border-bottom: 4px dashed var(--two);
+  position: relative;
+  top: 50px;
 }
