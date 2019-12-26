@@ -1,0 +1,38 @@
+body {
+  margin: 0 auto;
+  max-width: 42em;
+  width: 88%;
+}
+h1 {
+  font-size: 100px;
+}
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+section {
+  height: 400px;
+  background: blue;
+  margin-bottom: 40px;
+}
+.first-section {
+  margin-top: 100px;
+}
+menu {
+  position: fixed;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  background: gray;
+}
+menu ul {
+  padding: 0;
+}
+menu li {
+  padding-right: 20px;
+  float: left;
+  list-style-type: none;
+}

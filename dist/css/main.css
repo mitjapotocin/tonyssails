@@ -1,0 +1,49 @@
+/*! project-name v0.0.1 | (c) 2019 YOUR NAME | MIT License | http://link-to-your-git-repo.com */
+body {
+  margin: 0 auto;
+  max-width: 42em;
+  width: 88%;
+}
+h1 {
+  font-size: 100px;
+}
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+section {
+  height: 400px;
+  background: blue;
+  margin-bottom: 40px;
+}
+.first-section {
+  margin-top: 100px;
+}
+menu {
+  position: fixed;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  background: gray;
+}
+menu ul {
+  padding: 0;
+}
+menu li {
+  padding-right: 20px;
+  float: left;
+  list-style-type: none;
+}
+.cutting {
+  position: relative;
+  border-bottom: 4px dashed black;
+  margin-bottom: 40px;
+}
+.scissors {
+  position: absolute;
+  -webkit-transform: translateX(-60%) translateY(-40%);
+          transform: translateX(-60%) translateY(-40%);
+}

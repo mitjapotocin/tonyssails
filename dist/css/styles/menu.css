@@ -1,0 +1,17 @@
+/*! project-name v0.0.1 | (c) 2019 YOUR NAME | MIT License | http://link-to-your-git-repo.com */
+menu {
+  position: fixed;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  background: gray;
+}
+menu ul {
+  padding: 0;
+}
+menu li {
+  padding-right: 20px;
+  float: left;
+  list-style-type: none;
+}
